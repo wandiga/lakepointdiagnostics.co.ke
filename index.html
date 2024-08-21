@@ -8,8 +8,45 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="src/output.css" />
+    <script src="js/script.js" defer></script>
   </head>
   <body>
-    <h1 class="text-brandPurple font-sans font-normal">Hello World</h1>
+    <nav class="container relative mx-auto p-6">
+      <!-- Flex Container For Nav Items -->
+      <div class="my-6 flex items-center justify-between space-x-20">
+        <!-- Logo -->
+        <div class="z-30">
+          <img src="/src/assets/Common/img_logo-full-black.png" class="h-auto w-80" id="logo" alt="Lakepoint Diagnostic Laboratory Logo" />
+        </div>
+        <!-- Menu Items -->
+        <div class="hidden items-center space-x-10 text-grey950 md:flex">
+          <a href="#home" class="hover:text-brandPink">Home</a>
+          <a href="#services" class="hover:text-brandPink">Services</a>
+          <a href="#founder" class="hover:text-brandPink">Founder</a>
+          <a href="#contact-us" class="hover:text-brandPink">Contact Us</a>
+        </div>
+        <!-- Hamburger Menu -->
+        <button id="menu-btn" class="hamburger z-30 block focus:outline-none md:hidden">
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+      <!-- Mobile Menu -->
+      <div id="menu" class="fixed inset-0 z-20 hidden h-full min-h-screen w-full flex-col items-center divide-y divide-grey400 self-end bg-brandNavyBlue px-6 py-1 pb-4 pt-24 text-white">
+        <div class="w-full py-3 text-center">
+          <a href="#home" class="block">Home</a>
+        </div>
+        <div class="w-full py-3 text-center">
+          <a href="#services" class="block">Services</a>
+        </div>
+        <div class="w-full py-3 text-center">
+          <a href="#founder" class="block">Founder</a>
+        </div>
+        <div class="w-full py-3 text-center">
+          <a href="#contact-us" class="block">Contact Us</a>
+        </div>
+      </div>
+    </nav>
   </body>
 </html>
