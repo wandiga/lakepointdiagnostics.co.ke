@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  .page-header {
+    @apply text-4xl font-medium lg:text-5xl;
+  }
+
+  .section-header {
+    @apply text-3xl font-medium lg:text-4xl;
+  }
+
+  .section-subheader-01 {
+    @apply text-xl font-normal lg:text-2xl;
+  }
+
+  .section-subheader-02 {
+    @apply text-base font-normal lg:text-lg;
+  }
+}
+
 /* Hamburger Menu */
 .hamburger {
   cursor: pointer;

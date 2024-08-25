@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="src/output.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <nav class="relative mx-auto px-5 md:px-16 lg:px-32">
+      <!-- Flex Container For Nav Items -->
+      <div class="my-6 flex items-center justify-between space-x-20">
+        <!-- Logo -->
+        <div class="z-30">
+          <img src="/src/assets/Common/img_logo-vertical-colour.png" class="h-auto w-32" id="logo" alt="Lakepoint Diagnostic Laboratory Logo" />
+        </div>
+        <!-- Menu Items -->
+        <div class="hidden items-center space-x-10 text-grey950 md:flex">
+          <a href="#home" class="hover:text-brandPink">Home</a>
+          <a href="#services" class="hover:text-brandPink">Services</a>
+          <a href="founder.html" class="hover:text-brandPink">Founder</a>
+          <a href="contact.html" class="hover:text-brandPink">Contact Us</a>
+        </div>
+        <!-- Hamburger Menu -->
+        <button id="menu-btn" class="hamburger z-30 block focus:outline-none md:hidden">
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+      <!-- Mobile Menu -->
+      <div id="menu" class="fixed inset-0 z-20 hidden h-full min-h-screen w-full flex-col items-center divide-y divide-grey400 self-end bg-brandNavyBlue px-6 py-1 pb-4 pt-24 text-white">
+        <div class="w-full py-3 text-center">
+          <a href="#home" class="block">Home</a>
+        </div>
+        <div class="w-full py-3 text-center">
+          <a href="#services" class="block">Services</a>
+        </div>
+        <div class="w-full py-3 text-center">
+          <a href="founder.html" class="block">Founder</a>
+        </div>
+        <div class="w-full py-3 text-center">
+          <a href="contact.html" class="block">Contact Us</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro">
+      <!-- Container -->
+      <div class="mx-auto flex flex-col gap-10 border border-red-500 px-5 pt-20 md:mb-24 md:flex-row md:items-start md:justify-start md:gap-20 md:px-24 md:pt-24">
+        <!-- Image -->
+        <div class="md:w-1/2">
+          <img src="/src/assets/Contact/img_woman-lab-smiling.webp" alt="Woman in a lab smiling" />
+        </div>
+        <!-- Copy Container -->
+        <div class="flex w-full flex-col gap-4 border border-blue-500 text-left md:w-1/2">
+          <p class="text-base font-bold uppercase text-brandPurple lg:text-lg">Contact Us</p>
+          <h1 class="page-header text-grey950">We'd love to hear from you</h1>
+          <p class="section-subheader-01 text-grey700">Do you want to learn more about our services or book an appointment? Get in touch through any of the channels below. We'd love to hear from you.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section id="footer">
+      <!-- Container -->
+      <div class="mx-auto flex flex-col border border-red-500 bg-brandNavyBlue px-5 pt-20 md:px-16 md:pt-20 lg:px-32">
+        <!-- Intro -->
+        <div class="mb-10 flex flex-col gap-3 border border-pink-500 text-center lg:mb-16">
+          <h1 class="section-header text-simplyWhite">Contact Us</h1>
+          <p class="section-subheader-01 text-simplyWhite">We're here for you, when you need us most.</p>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="mb-12 flex w-full flex-col gap-4 lg:mb-24 lg:flex-row">
+          <!-- Map -->
+          <div class="flex flex-col gap-6 rounded-[2rem] bg-simplyWhite p-6 lg:w-1/2">
+            <!-- Text Container -->
+            <div class="flex flex-col items-center justify-start gap-2 text-center">
+              <p class="text-lg text-brandPurple lg:text-xl">Our location</p>
+              <p class="text-lg text-grey950 lg:text-xl">Off Ondiek Highway, Opp. Lumumba Sub County Referral Hospital - next to KPLC Staff Quarters, Kisumu City, Kenya</p>
+              <!-- Map -->
+            </div>
+          </div>
+          <div class="flex flex-col gap-4 lg:w-1/2">
+            <!-- Opening Hours -->
+            <div class="flex flex-col gap-6 rounded-[2rem] bg-simplyWhite p-6">
+              <!-- Text Container -->
+              <div class="flex flex-col items-center justify-start gap-2 text-center">
+                <p class="text-lg text-brandPurple lg:text-xl">Opening hours</p>
+                <p class="text-lg text-grey950 lg:text-xl">
+                  Monday - Friday
+                  <br />
+                  8 AM - 5 AM
+                </p>
+              </div>
+            </div>
+            <!-- Contact Us -->
+            <div class="flex flex-col gap-6 rounded-[2rem] bg-simplyWhite p-6">
+              <!-- Text Container -->
+              <div class="flex flex-col items-center justify-start gap-2 text-center">
+                <p class="text-lg text-brandPurple lg:text-xl">Opening hours</p>
+                <p class="text-lg text-grey950 lg:text-xl">
+                  0721 445 868 / 0733 240 509
+                  <br />
+                  info@lakepointlabs.co.ke
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <p class="py-8 text-center text-lg font-normal text-simplyWhite">© 2024 Lakepoint Diagnostics Laboratories.</p>
+      </div>
+    </section>
+  </body>
+</html>
