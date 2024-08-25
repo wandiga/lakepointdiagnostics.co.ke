@@ -915,6 +915,10 @@ video {
   width: 0.25rem;
 }
 
+.w-32 {
+  width: 8rem;
+}
+
 .w-80 {
   width: 20rem;
 }
@@ -933,18 +937,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-40 {
-  width: 10rem;
-}
-
-.w-3 {
-  width: 0.75rem;
-}
-
-.w-32 {
-  width: 8rem;
 }
 
 .max-w-80 {
