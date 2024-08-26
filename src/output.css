@@ -948,10 +948,6 @@ video {
   width: 2.5rem;
 }
 
-.w-32 {
-  width: 8rem;
-}
-
 .w-80 {
   width: 20rem;
 }
@@ -2179,14 +2175,14 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .pb-4 {
