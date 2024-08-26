@@ -11,8 +11,8 @@ function navToggle() {
   menu.classList.toggle("hidden");
 
   if (menu.classList.contains("flex")) {
-    logo.setAttribute("src", "/src/assets/Common/img_logo-full-white.png");
+    logo.setAttribute("src", "/src/assets/Common/img_logo-symbol-white.png");
   } else {
-    logo.setAttribute("src", "/src/assets/Common/img_logo-full-black.png");
+    logo.setAttribute("src", "/src/assets/Common/img_logo-vertical-colour.png");
   }
 }
