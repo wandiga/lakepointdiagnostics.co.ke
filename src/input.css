@@ -73,3 +73,31 @@
   transform: rotate(-45deg) translateY(6px) translateX(-6px);
   background: #fff;
 }
+
+#header {
+  background-image: url("/src/assets/Services/img_samples-technician-large.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  #header {
+    background-image: url("/src/assets/Services/img_samples-technician-small.jpg");
+    background-repeat: no-repeat;
+    background-size: center;
+  }
+}
+
+#home-hero {
+  background-image: url("/src/assets/Home/img_hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  #home-hero {
+    background-image: url("/src/assets/Home/img_hero.jpg");
+    background-repeat: no-repeat;
+    background-size: center;
+  }
+}

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Home - Lakepoint Labs</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
@@ -16,12 +16,14 @@
       <div class="my-6 flex items-center justify-between gap-20">
         <!-- Logo -->
         <div class="z-30">
-          <img src="/src/assets/Common/img_logo-vertical-colour.png" class="h-10 w-auto" id="logo" alt="Lakepoint Diagnostic Laboratory Logo" />
+          <a href="index.html">
+            <img src="/src/assets/Common/img_logo-vertical-colour.png" class="h-10 w-auto" id="logo" alt="Lakepoint Diagnostic Laboratory Logo" />
+          </a>
         </div>
         <!-- Menu Items -->
         <div class="hidden items-center gap-10 text-grey950 md:flex">
-          <a href="#home" class="hover:text-brandPink">Home</a>
-          <a href="#services" class="hover:text-brandPink">Services</a>
+          <a href="index.html" class="text-brandPink hover:text-brandPurple">Home</a>
+          <a href="services.html" class="hover:text-brandPink">Services</a>
           <a href="founder.html" class="hover:text-brandPink">Founder</a>
           <a href="contact.html" class="hover:text-brandPink">Contact Us</a>
         </div>
@@ -35,10 +37,10 @@
       <!-- Mobile Menu -->
       <div id="menu" class="text-simply-white fixed inset-0 z-20 hidden h-full min-h-screen w-full flex-col items-center self-end bg-brandNavyBlue px-6 py-1 pb-4 pt-40 text-3xl text-white">
         <div class="w-full py-4 text-left">
-          <a href="#home" class="block">Home</a>
+          <a href="index.html" class="block">Home</a>
         </div>
         <div class="w-full py-4 text-left">
-          <a href="#services" class="block">Services</a>
+          <a href="services.html" class="block">Services</a>
         </div>
         <div class="w-full py-4 text-left">
           <a href="founder.html" class="block">Founder</a>
@@ -48,5 +50,168 @@
         </div>
       </div>
     </nav>
+
+    <!-- Hero Section -->
+    <section id="home-hero">
+      <div class="relative mx-auto flex min-h-64 flex-col px-5 py-20 md:px-16 lg:px-32">
+        <div class="flex flex-col gap-6 md:w-1/2">
+          <div class="z-10 flex w-full flex-col gap-6 text-left">
+            <h1 class="page-header text-simplyWhite">Lakepoint Diagnostics Laboratories</h1>
+            <p class="section-subheader-01 text-grey400">Lorem ipsum dolor sit amet consectetur. Vitae cursus elementum mattis lacus.</p>
+          </div>
+          <a href="services.html">
+            <button class="flex w-fit flex-row rounded-[0.25rem] bg-brandPurple px-6 py-3 text-white">View services</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Mission Section -->
+    <section id="mission">
+      <div class="relative mx-auto flex flex-col px-5 py-20 md:px-16 lg:px-32">
+        <div class="flex flex-col gap-3 text-center">
+          <p class="text-base font-bold uppercase text-brandPurple lg:text-lg">Our Mission</p>
+          <h1 class="section-header text-grey950">What we are here to do</h1>
+          <p class="lg:text-l text-base font-normal text-grey600">Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta">
+      <!-- Container -->
+      <div class="mx-auto flex flex-col gap-10 bg-brandPurple px-5 py-20 md:flex-row md:items-center md:justify-start md:gap-20 md:px-24 md:py-24">
+        <!-- Image -->
+        <div class="max-w-80 md:w-1/2 md:min-w-80">
+          <img src="/src/assets/Home/img_tester.jpg" alt="Woman in a lab smiling" />
+        </div>
+        <div class="flex flex-col gap-10">
+          <!-- Copy Container -->
+          <div class="flex w-full flex-col gap-2 text-left">
+            <h1 class="section-header text-simplyWhite">Best in-class medical testing</h1>
+            <p class="text-base font-normal text-grey300 lg:text-lg">Lorem ipsum dolor sit amet consectetur. Molestie etiam duis quam dui velit. Hendrerit amet viverra adipiscing rhoncus ultricies.</p>
+          </div>
+          <div class="flex flex-row gap-4">
+            <a href="services.html">
+              <button class="flex w-fit flex-row rounded-[0.25rem] bg-simplyWhite px-6 py-3 text-grey950">Our services</button>
+            </a>
+            <a href="founder.html">
+              <button class="flex w-fit flex-row rounded-[0.25rem] border border-simplyWhite bg-none px-6 py-3 text-simplyWhite">The founder</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Values Section -->
+    <section id="values">
+      <div class="relative mx-auto flex flex-col items-start gap-8 px-5 py-20 md:items-center md:gap-10 md:px-16 lg:px-32">
+        <div class="flex flex-col gap-3 text-left md:text-center">
+          <p class="text-base font-bold uppercase text-brandPurple lg:text-lg">Our Values</p>
+          <h1 class="section-header text-grey950">Why choose us</h1>
+        </div>
+        <hr class="my-2 h-px w-10 border border-grey950" />
+        <div class="flex flex-col gap-10">
+          <div class="flex flex-col gap-1 md:flex-row md:gap-0">
+            <p class="text-xl font-medium text-grey950 md:w-1/2 lg:text-2xl">Value 1</p>
+            <p class="text-xl font-normal text-grey700 md:w-1/2 lg:text-2xl">Lorem ipsum dolor sit amet consectetur. Aliquam arcu pellentesque quis augue purus blandit nascetur. Tortor pretium hendrerit ac elit.</p>
+          </div>
+          <div class="flex flex-col gap-1 md:flex-row md:gap-0">
+            <p class="text-xl font-medium text-grey950 md:w-1/2 lg:text-2xl">Value 2</p>
+            <p class="text-xl font-normal text-grey700 md:w-1/2 lg:text-2xl">Lorem ipsum dolor sit amet consectetur. Aliquam arcu pellentesque quis augue purus blandit nascetur. Tortor pretium hendrerit ac elit.</p>
+          </div>
+          <div class="flex flex-col gap-1 md:flex-row md:gap-0">
+            <p class="text-xl font-medium text-grey950 md:w-1/2 lg:text-2xl">Value 3</p>
+            <p class="text-xl font-normal text-grey700 md:w-1/2 lg:text-2xl">Lorem ipsum dolor sit amet consectetur. Aliquam arcu pellentesque quis augue purus blandit nascetur. Tortor pretium hendrerit ac elit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partner Section -->
+    <section id="partners">
+      <div class="relative mx-auto flex flex-col items-start gap-8 bg-grey100 px-5 py-20 md:items-center md:gap-10 md:px-16 lg:px-32">
+        <div class="flex flex-col gap-3 text-left md:text-center">
+          <p class="text-base font-bold uppercase text-brandPurple lg:text-lg">Collaborations</p>
+          <h1 class="section-header text-grey950">Partners we have worked with</h1>
+        </div>
+        <hr class="my-2 h-px w-10 border border-grey400" />
+        <div class="flex flex-row gap-10">
+          <img src="" class="h-10 w-20 bg-simplyWhite" alt="" />
+          <img src="" class="h-10 w-20 bg-simplyWhite" alt="" />
+          <img src="" class="h-10 w-20 bg-simplyWhite" alt="" />
+          <img src="" class="h-10 w-20 bg-simplyWhite" alt="" />
+          <img src="" class="h-10 w-20 bg-simplyWhite" alt="" />
+          <img src="" class="h-10 w-20 bg-simplyWhite" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section id="footer">
+      <!-- Container -->
+      <div class="mx-auto flex flex-col bg-brandNavyBlue px-5 pt-20 md:px-16 md:pt-20 lg:px-32">
+        <!-- Intro -->
+        <div class="mb-10 flex flex-col gap-3 text-center lg:mb-16">
+          <h1 class="section-header text-simplyWhite">Contact Us</h1>
+          <p class="section-subheader-01 text-simplyWhite">We're here for you, when you need us most.</p>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="mb-12 flex w-full flex-col gap-4 lg:mb-20 lg:flex-row">
+          <!-- Map -->
+          <div class="flex flex-col gap-6 rounded-[2rem] bg-simplyWhite p-6 lg:w-1/2">
+            <!-- Text Container -->
+            <div class="flex flex-col items-center justify-start gap-2 text-center">
+              <p class="text-lg font-semibold text-brandPurple lg:text-xl">Our location</p>
+              <hr class="my-2 h-px w-10 border border-brandPink" />
+              <p class="text-lg text-grey700 lg:text-xl">Off Ondiek Highway, Opp. Lumumba Sub County Referral Hospital - next to KPLC Staff Quarters, Kisumu City, Kenya</p>
+            </div>
+            <!-- Map -->
+            <div class="relative h-80 w-full lg:h-full">
+              <iframe class="absolute left-0 top-0 h-full w-full" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d419.3773805572784!2d34.76521432614209!3d-0.09770997425357257!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1724692928522!5m2!1sen!2ske" frameborder="0" style="border: 0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+          </div>
+          <div class="flex flex-col gap-4 lg:w-1/2">
+            <!-- Opening Hours -->
+            <div class="flex flex-col gap-6 rounded-[2rem] bg-simplyWhite p-6">
+              <!-- Text Container -->
+              <div class="flex flex-col items-center justify-start gap-2 text-center">
+                <p class="text-lg font-semibold text-brandPurple lg:text-xl">Opening hours</p>
+                <hr class="my-2 h-px w-10 border border-brandPink" />
+                <div class="mb-2 flex flex-col gap-0">
+                  <p class="text-lg font-medium text-grey950 lg:text-xl">Monday - Friday</p>
+                  <p class="text-lg text-grey700 lg:text-xl">8 AM - 6 PM</p>
+                </div>
+                <div class="mb-2 flex flex-col gap-0">
+                  <p class="text-lg font-medium text-grey950 lg:text-xl">Sundays & Public Holidays</p>
+                  <p class="text-lg text-grey700 lg:text-xl">9 AM - 3 PM</p>
+                </div>
+                <div class="mb-2 flex flex-col gap-0">
+                  <p class="text-lg font-medium text-grey950 lg:text-xl">Saturdays</p>
+                  <p class="text-lg text-grey700 lg:text-xl">Closed (In case of emergency - call 0721 445 868 / 0733 240 509)</p>
+                </div>
+              </div>
+            </div>
+            <!-- Contact Us -->
+            <div class="flex flex-col gap-6 rounded-[2rem] bg-simplyWhite p-6">
+              <!-- Text Container -->
+              <div class="flex flex-col items-center justify-start gap-2 text-center">
+                <p class="text-lg font-semibold text-brandPurple lg:text-xl">How to contact us</p>
+                <hr class="my-2 h-px w-10 border border-brandPink" />
+                <p class="text-lg text-grey700 lg:text-xl">
+                  0721 445 868 / 0733 240 509
+                  <br />
+                  info@lakepointlabs.co.ke
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <p class="py-8 text-center text-lg font-normal text-simplyWhite">© 2024 Lakepoint Diagnostics Laboratories.</p>
+      </div>
+    </section>
   </body>
 </html>
