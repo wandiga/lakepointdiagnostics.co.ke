@@ -89,14 +89,14 @@
 }
 
 #home-hero {
-  background-image: url("/src/assets/Home/img_hero.jpg");
+  background-image: url("/src/assets/Home/img_hero_large.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 @media (max-width: 768px) {
   #home-hero {
-    background-image: url("/src/assets/Home/img_hero.jpg");
+    background-image: url("/src/assets/Home/img_hero_small.png");
     background-repeat: no-repeat;
     background-size: center;
   }
