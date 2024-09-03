@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="src/output.css" />
     <script src="js/script.js" defer></script>
   </head>
-  <body>
+  <body class="overflow-visible">
     <nav class="relative mx-auto px-5 md:px-16 lg:px-32">
       <!-- Flex Container For Nav Items -->
       <div class="my-6 flex items-center justify-between gap-20">
@@ -52,68 +52,34 @@
     </nav>
 
     <!-- Bio Section -->
-    <section id="bio">
+    <section id="bio" class="overflow-visible">
       <!-- Container -->
-      <div class="mb-20 flex max-w-5xl flex-col gap-10 px-5 pt-20 md:gap-20 md:px-16 lg:gap-24 lg:px-32">
+      <div class="mx-auto mb-20 flex flex-col gap-10 overflow-visible px-5 pt-20 md:gap-20 md:px-16 min-[1000px]:flex-row lg:gap-24 lg:px-32">
         <!-- Image Container -->
-        <div class="h-auto w-80">
-          <img src="src/assets/Contact/img_plant.jpg" alt="Woman in a lab smiling" />
+        <div class="h-auto w-full max-w-96 overflow-visible min-[1000px]:sticky min-[1000px]:top-80">
+          <img src="src/assets/Founder/img_founder-lab.jpg" alt="Paul Okwach - Founder" />
         </div>
         <!-- Text Container -->
-        <div class="mx-auto flex flex-col gap-16 md:flex-row">
-          <!-- Intro -->
-          <div class="flex flex-col gap-4 text-left">
-            <p class="text-base font-bold uppercase text-brandPurple lg:text-lg">About the Founder</p>
-            <h1 class="mb-8 text-4xl font-medium text-grey950 lg:text-5xl">The mind (and heart) behind your care</h1>
-            <p class="text-lg font-normal text-grey700 lg:text-xl">
-              Mr. Paul Okwach is a seasoned medical laboratory professional with over 30 years of experience, specializing in quality assurance and laboratory management. He began his career in 1990 as a trainee technologist at the University of Nairobi's Department of Veterinary Anatomy. In 1995, Mr. Okwach joined Aga Khan University Hospital, where he quickly rose to become the Technical Head of
-              the Clinical Chemistry & Immunology department.
-            </p>
-            <p class="text-lg font-normal text-grey700 lg:text-xl">
-              In 2002, Mr. Okwach co-founded Pathcare Kenya Limited as the Technical Manager, where he was instrumental in leading the lab to become the first in the region to achieve SANAS accreditation in 2004. After nearly a decade with Pathcare, he pursued further studies, earning a degree in Medical Laboratory Sciences from Jomo Kenyatta University of Agriculture and Technology (JKUAT) in
-              2014.
-            </p>
-            <p class="text-lg font-normal text-grey700 lg:text-xl">
-              Mr. Okwach has held several key positions, including Quality Assurance Manager at Medanta Africare, Head of Customer Services at Pathologists Lancet Kenya, and a laboratory consultant for various institutions seeking international accreditation. His expertise also took him to Ghana, where he served as a consultant for Medlab Ghana Ltd.
-            </p>
-            <p class="text-lg font-normal text-grey700 lg:text-xl">
-              Returning to Kenya, Mr. Okwach rejoined Pathcare in 2018 as the Technical Manager for its Mombasa branch and later became the Regional Technical Manager for Western Kenya. His focus on quality and technical excellence has always been his guiding principle, a commitment that eventually led him to establish Lakepoint Diagnostic Laboratories in 2024.
-            </p>
-            <p class="text-lg font-normal text-grey700 lg:text-xl">
-              Throughout his career, Mr. Okwach has been a passionate advocate for laboratory accreditation and quality standards, contributing significantly to KENAS accreditation campaigns and serving on its first steering committee. At Lakepoint Diagnostic Laboratories, he promises to uphold the highest standards of quality testing for all clients, ensuring reliable and accurate diagnostic
-              services.
-            </p>
-          </div>
-          <!-- <div class="flex flex-col gap-20 md:pt-[6.75rem]">
-            
-            <div class="flex flex-col gap-0">
-              <p class="text-lg font-semibold text-brandPurple lg:text-xl">Education</p>
-              <div class="flex flex-col gap-8">
-                <div class="flex-flex-col gap-2">
-                  <p class="text-lg font-normal text-grey950 lg:text-xl">[Qualification]</p>
-                  <p class="text-lg font-normal text-grey950 lg:text-xl">[University]</p>
-                </div>
-                <div class="flex-flex-col gap-2">
-                  <p class="text-lg font-semibold text-brandPurple lg:text-xl">[Qualification]</p>
-                  <p class="text-lg font-normal text-grey950 lg:text-xl">[University]</p>
-                </div>
-              </div>
-            </div>
-            
-            <div class="flex flex-col gap-0">
-              <p>Training</p>
-              <div class="flex flex-col gap-8">
-                <div class="flex-flex-col gap-2">
-                  <p>[Qualification]</p>
-                  <p>[University]</p>
-                </div>
-                <div class="flex-flex-col gap-2">
-                  <p>[Qualification]</p>
-                  <p>[University]</p>
-                </div>
-              </div>
-            </div>
-          </div> -->
+        <div class="flex flex-col gap-4 text-left md:w-1/2">
+          <p class="text-base font-bold uppercase text-brandPurple lg:text-lg">About the Founder</p>
+          <h1 class="mb-8 text-4xl font-medium text-grey950 lg:text-5xl">The mind (and heart) behind your care</h1>
+          <p class="text-lg font-normal text-grey700 lg:text-xl">
+            Mr. Paul Okwach is a seasoned medical laboratory professional with over 30 years of experience, specializing in quality assurance and laboratory management. He began his career in 1990 as a trainee technologist at the University of Nairobi's Department of Veterinary Anatomy. In 1995, Mr. Okwach joined Aga Khan University Hospital, where he quickly rose to become the Technical Head of
+            the Clinical Chemistry & Immunology department.
+          </p>
+          <p class="text-lg font-normal text-grey700 lg:text-xl">
+            In 2002, Mr. Okwach co-founded Pathcare Kenya Limited as the Technical Manager, where he was instrumental in leading the lab to become the first in the region to achieve SANAS accreditation in 2004. After nearly a decade with Pathcare, he pursued further studies, earning a degree in Medical Laboratory Sciences from Jomo Kenyatta University of Agriculture and Technology (JKUAT) in 2014.
+          </p>
+          <p class="text-lg font-normal text-grey700 lg:text-xl">
+            Mr. Okwach has held several key positions, including Quality Assurance Manager at Medanta Africare, Head of Customer Services at Pathologists Lancet Kenya, and a laboratory consultant for various institutions seeking international accreditation. His expertise also took him to Ghana, where he served as a consultant for Medlab Ghana Ltd.
+          </p>
+          <p class="text-lg font-normal text-grey700 lg:text-xl">
+            Returning to Kenya, Mr. Okwach rejoined Pathcare in 2018 as the Technical Manager for its Mombasa branch and later became the Regional Technical Manager for Western Kenya. His focus on quality and technical excellence has always been his guiding principle, a commitment that eventually led him to establish Lakepoint Diagnostic Laboratories in 2024.
+          </p>
+          <p class="text-lg font-normal text-grey700 lg:text-xl">
+            Throughout his career, Mr. Okwach has been a passionate advocate for laboratory accreditation and quality standards, contributing significantly to KENAS accreditation campaigns and serving on its first steering committee. At Lakepoint Diagnostic Laboratories, he promises to uphold the highest standards of quality testing for all clients, ensuring reliable and accurate diagnostic
+            services.
+          </p>
         </div>
       </div>
     </section>

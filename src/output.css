@@ -968,10 +968,6 @@ video {
   width: 5rem;
 }
 
-.w-80 {
-  width: 20rem;
-}
-
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
@@ -997,12 +993,16 @@ video {
   width: 100%;
 }
 
-.max-w-5xl {
-  max-width: 64rem;
-}
-
 .max-w-80 {
   max-width: 20rem;
+}
+
+.max-w-96 {
+  max-width: 24rem;
+}
+
+.max-w-\[32rem\] {
+  max-width: 32rem;
 }
 
 .flex-shrink {
@@ -1533,10 +1533,6 @@ video {
 
 .gap-10 {
   gap: 2.5rem;
-}
-
-.gap-16 {
-  gap: 4rem;
 }
 
 .gap-2 {
@@ -3004,6 +3000,10 @@ video {
 }
 
 @media (min-width: 360px) {
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
   .sm\:underline {
     text-decoration-line: underline;
   }
@@ -3046,6 +3046,10 @@ video {
     justify-content: flex-start;
   }
 
+  .md\:justify-center {
+    justify-content: center;
+  }
+
   .md\:gap-0 {
     gap: 0px;
   }
@@ -3081,12 +3085,39 @@ video {
     padding-top: 6rem;
   }
 
-  .md\:pt-\[6\.75rem\] {
-    padding-top: 6.75rem;
+  .md\:text-left {
+    text-align: left;
   }
 
   .md\:text-center {
     text-align: center;
+  }
+}
+
+@media (min-width: 1000px) {
+  .min-\[1000px\]\:sticky {
+    position: sticky;
+  }
+
+  .min-\[1000px\]\:top-80 {
+    top: 20rem;
+  }
+
+  .min-\[1000px\]\:max-w-7xl {
+    max-width: 80rem;
+  }
+
+  .min-\[1000px\]\:flex-row {
+    flex-direction: row;
+  }
+
+  .min-\[1000px\]\:gap-20 {
+    gap: 5rem;
+  }
+
+  .min-\[1000px\]\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 }
 
