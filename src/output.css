@@ -948,6 +948,18 @@ video {
   height: 1px;
 }
 
+.h-3 {
+  height: 0.75rem;
+}
+
+.h-32 {
+  height: 8rem;
+}
+
+.h-24 {
+  height: 6rem;
+}
+
 .min-h-64 {
   min-height: 16rem;
 }
@@ -3103,21 +3115,8 @@ video {
     top: 20rem;
   }
 
-  .min-\[1000px\]\:max-w-7xl {
-    max-width: 80rem;
-  }
-
   .min-\[1000px\]\:flex-row {
     flex-direction: row;
-  }
-
-  .min-\[1000px\]\:gap-20 {
-    gap: 5rem;
-  }
-
-  .min-\[1000px\]\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
   }
 }
 
