@@ -932,6 +932,10 @@ video {
   height: 5rem;
 }
 
+.h-24 {
+  height: 6rem;
+}
+
 .h-80 {
   height: 20rem;
 }
@@ -946,18 +950,6 @@ video {
 
 .h-px {
   height: 1px;
-}
-
-.h-3 {
-  height: 0.75rem;
-}
-
-.h-32 {
-  height: 8rem;
-}
-
-.h-24 {
-  height: 6rem;
 }
 
 .min-h-64 {
@@ -3038,6 +3030,10 @@ video {
     width: 50%;
   }
 
+  .md\:w-3\/4 {
+    width: 75%;
+  }
+
   .md\:min-w-80 {
     min-width: 20rem;
   }
@@ -3115,7 +3111,17 @@ video {
     top: 20rem;
   }
 
+  .min-\[1000px\]\:top-8 {
+    top: 2rem;
+  }
+
   .min-\[1000px\]\:flex-row {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1200px) {
+  .min-\[1200px\]\:flex-row {
     flex-direction: row;
   }
 }
