@@ -813,6 +813,10 @@ video {
   margin-top: 0.5rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -1206,6 +1210,10 @@ video {
 
 .list-disc {
   list-style-type: disc;
+}
+
+.list-decimal {
+  list-style-type: decimal;
 }
 
 .appearance-none {
